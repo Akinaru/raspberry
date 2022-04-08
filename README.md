@@ -14,8 +14,8 @@
 
 (droit d'accès au fichiers)
 <li>
-  <p><a href="">sudo chown -R pi:www-data /var/www/html/</a></p>
-  <p><a href="">sudo chmod -R 770 /var/www/html/</a></p>
+  <a href="">sudo chown -R pi:www-data /var/www/html/</a>
+  <a href="">sudo chmod -R 770 /var/www/html/</a>
 </li>
 
 <h2>PHP:</h2>
@@ -39,8 +39,8 @@
 
 (activer mysqli)
 <li>
-  <p><a href="">sudo phpenmod mysqli</a></p>
-  <p><a href="">sudo /etc/init.d/apache2 restart</a></p>
+  <a href="">sudo phpenmod mysqli</a>
+  <a href="">sudo /etc/init.d/apache2 restart</a>
 </li>
 (tester localhost/phpmyadmin et si ca ne marche pas "sudo ln -s /usr/share/phpmyadmin /var/www/html/phpmyadmin")
  
@@ -52,8 +52,8 @@
  
 <h2>Donner la permission sudo à www-data:</h2>
 <li>
-  <p><a href="">chown www-data:www-data /var/www</a></p>
-  <p><a href="">chmod 775 /var/www</a></p>
+  <a href="">chown www-data:www-data /var/www</a>
+  <a href="">chmod 775 /var/www</a>
 </li>
  
 <h2>Pour enlever la demande de mot de passe par le serveur web (PHP):</h2>
