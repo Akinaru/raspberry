@@ -2,7 +2,7 @@
 
 <h3>https://raspberry-pi.fr/installer-serveur-web-raspberry-lamp/</h3> (installation)
 <h3>https://forums.raspberrypi.com/viewtopic.php?t=9928</h3> (perm www-data)
-<h3>https://anto.online/code/how-to-run-php-script-root/</h3> (www-data no-pass)
+<h3>https://anto.online/code/how-to-run-php-script-root/ <p>(www-data no-pass)</p></h3>
 
 
 
