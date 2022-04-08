@@ -1,7 +1,7 @@
 <h1 align="center">Tutoriel pour pour installer Apache/Php/Mysql/PHPMyAdmin sur la raspberry ainsi que la fixation d'ip et +.</h1>
 
-<h3>https://raspberry-pi.fr/installer-serveur-web-raspberry-lamp/</h3> (installation)
-<h3>https://forums.raspberrypi.com/viewtopic.php?t=9928</h3> (perm www-data)
+<h3>https://raspberry-pi.fr/installer-serveur-web-raspberry-lamp/ <span>(installation)</span></h3>
+<h3>https://forums.raspberrypi.com/viewtopic.php?t=9928 <span>(perm www-data)</span></h3>
 <h3>https://anto.online/code/how-to-run-php-script-root/ <span>(www-data no-pass)</span></h3>
 
 
