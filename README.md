@@ -45,7 +45,7 @@
 (tester localhost/phpmyadmin et si ca ne marche pas "sudo ln -s /usr/share/phpmyadmin /var/www/html/phpmyadmin")
  
 <h2>Changer l'ip:</h2>
-(ouvrir le fichier config et mettre "static ip_address=172.21.190.160" au début)
+(ouvrir le fichier config et mettre "<bold>static ip_address=172.21.190.160</bold>" au début)
 <li>
   <a href="">sudo nano /etc/dhcpcd.conf</a>
 </li>
