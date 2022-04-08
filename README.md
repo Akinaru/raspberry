@@ -8,50 +8,50 @@
 
 (droit d'accès au fichiers)
 <li>
-  sudo chown -R pi:www-data /var/www/html/
-  sudo chmod -R 770 /var/www/html/
+  <a href="">sudo chown -R pi:www-data /var/www/html/</a>
+  <a href="">sudo chmod -R 770 /var/www/html/</a>
 </li>
 
 <h2>PHP:</h2>
 (installation de PHP)
 <li>
-  sudo apt install php php-mbstring
+  <a href="">sudo apt install php php-mbstring</a>
 </li>
   
 <h2>Mysql:</h2>
 (installation de mysql)
 <li>
-  sudo apt install mariadb-server php-mysql
+  <a href="">sudo apt install mariadb-server php-mysql</a>
 </li>
 
 <h2>PHPMyAdmin:</h2>
 (installation de PhpMyAdmin)
 (mettre no à "dbconfig-common")
 <li>
-  sudo apt install phpmyadmin
+  <a href="">sudo apt install phpmyadmin</a>
 </li>
 
 (activer mysqli)
 <li>
-  sudo phpenmod mysqli
-  sudo /etc/init.d/apache2 restart
+  <a href="">sudo phpenmod mysqli</a>
+  <a href="">sudo /etc/init.d/apache2 restart</a>
 </li>
 (tester localhost/phpmyadmin et si ca ne marche pas "sudo ln -s /usr/share/phpmyadmin /var/www/html/phpmyadmin")
  
 <h2>Changer l'ip:</h2>
 (ouvrir le fichier config et mettre "static ip_address=172.21.190.160" au début)
 <li>
-  sudo nano /etc/dhcpcd.conf
+  <a href="">sudo nano /etc/dhcpcd.conf</a>
 </li>
  
 <h2>Donner la permission sudo à www-data:</h2>
 <li>
-  chown www-data:www-data /var/www
-  chmod 775 /var/www
+  <a href="">chown www-data:www-data /var/www</a>
+  <a href="">chmod 775 /var/www</a>
 </li>
  
 <h2>Pour enlever la demande de mot de passe par le serveur web (PHP):</h2>
 <li>
-  sudo visudo -f /etc/sudoers.d/myOverrides
+  <a href="">sudo visudo -f /etc/sudoers.d/myOverrides</a>
 </li>
 (et ajouter "www-data ALL=(ALL) NOPASSWD: ALL")
