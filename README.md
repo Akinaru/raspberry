@@ -30,6 +30,10 @@
 <ul>
 	<li>sudo apt install mariadb-server php-mysql</li>
 </ul>
+(installer mysql-connector pour python)
+<ul>
+	<li>pip install mysql-connector</li>
+</ul>
 
 <h2>PHPMyAdmin:</h2>
 (installation de PhpMyAdmin)
