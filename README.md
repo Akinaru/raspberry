@@ -1,4 +1,4 @@
-Appache:
+<h1>Appache:</h1>
   (installation d'apache)
 - sudo apt install apache2
 
