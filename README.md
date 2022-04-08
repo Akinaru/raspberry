@@ -1,3 +1,5 @@
+<center>Tutoriel pour pour installer Apache/Php/Mysql/PHPMyAdmin sur la raspberry ainsi que la fixation d'ip et +.</center>
+
 <h1>Appache:</h1>
 (installation d'apache)
 <li>
