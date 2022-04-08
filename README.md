@@ -7,8 +7,8 @@
 - sudo chmod -R 770 /var/www/html/
 
 <h1>PHP:</h1>
-  (installation de PHP)
-  - sudo apt install php php-mbstring
+(installation de PHP)
+- sudo apt install php php-mbstring
   
 <h1>Mysql:</h1>
   (installation de mysql)
