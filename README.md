@@ -1,7 +1,7 @@
 <h1>Appache:</h1>
 (installation d'apache)
 <li>
-  <h2>sudo apt install apache2</h2>
+  sudo apt install apache2
 </li>
 
 (droit d'accès au fichiers)
