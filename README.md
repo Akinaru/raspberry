@@ -49,11 +49,15 @@
 </ul>
 (tester localhost/phpmyadmin et si ca ne marche pas "sudo ln -s /usr/share/phpmyadmin /var/www/html/phpmyadmin")
  
-<h2>Changer l'ip:</h2>
+<h2>Internet:</h2>
 (ouvrir le fichier config et mettre "<bold>static ip_address=172.21.190.160</bold>" au début)
 <ul>
 	<li>sudo nano /etc/dhcpcd.conf</li>
 </ul>
+(ouvrir les preférences de la raspbery)
+<ul>
+	<li>Raspberry Pi Configuration/ Interfaces / SSH -> Enable</li>
+	</ul>
  
 <h2>Donner la permission sudo à www-data:</h2>
 <ul>
