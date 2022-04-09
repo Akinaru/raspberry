@@ -50,6 +50,15 @@
 </ul>
 (tester localhost/phpmyadmin et si ca ne marche pas "sudo ln -s /usr/share/phpmyadmin /var/www/html/phpmyadmin")
 
+<h2>Remove PHP password error:</h2>
+<ul>
+	<li>cd /var/www/html/phpmyadmin</li>
+	<li>sudo nano config.sample.inc.php</li>
+	<li>$cfg['Servers'][$i]['AllowNoPassword'] = TRUE;</li>
+</ul>
+(et renommer le fichier en config.inc.php (enlever le sample.))
+	
+
 <h2>PHPMyAdmin manually:</h2>
 <ul>
 	<li>cd /tmp</li>
