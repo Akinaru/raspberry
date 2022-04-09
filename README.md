@@ -3,6 +3,7 @@
 <h3>https://raspberry-pi.fr/installer-serveur-web-raspberry-lamp/ <span>(installation)</span></h3>
 <h3>https://forums.raspberrypi.com/viewtopic.php?t=9928 <span>(perm www-data)</span></h3>
 <h3>https://anto.online/code/how-to-run-php-script-root/ <span>(www-data no-pass)</span></h3>
+<h3>https://www.digitalocean.com/community/questions/how-to-install-manually-phpmyadmin-on-ubuntu <span>(phpmyadmin manually)</span></h3>
 
 
 
@@ -35,7 +36,7 @@
 	<li>pip install mysql-connector</li>
 </ul>
 
-<h2>PHPMyAdmin:</h2>
+<h2>PHPMyAdmin auto:</h2>
 (installation de PhpMyAdmin)
 (mettre no à "dbconfig-common")
 <ul>
@@ -48,7 +49,19 @@
 	<li>sudo /etc/init.d/apache2 restart</li>
 </ul>
 (tester localhost/phpmyadmin et si ca ne marche pas "sudo ln -s /usr/share/phpmyadmin /var/www/html/phpmyadmin")
- 
+
+<h2>PHPMyAdmin manually:</h2>
+<ul>
+	<li>cd /tmp</li>
+	<li>wget https://files.phpmyadmin.net/phpMyAdmin/5.0.2/phpMyAdmin-5.0.2-all-languages.zip</li>
+	<li>sudo apt install unzip</li>
+	<li>unzip phpMyAdmin-5.0.2-all-languages.zip</li>
+	<li>mv phpMyAdmin-5.0.2-all-languages phpmyadmin</li>
+	<li>sudo mv phpmyadmin /var/www/html</li>
+	
+</ul>
+
+
 <h2>Internet:</h2>
 (ouvrir le fichier config et mettre "<bold>static ip_address=172.21.190.160</bold>" au début)
 <ul>
