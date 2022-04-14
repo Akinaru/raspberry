@@ -31,6 +31,12 @@
 <ul>
 	<li>sudo apt install mariadb-server php-mysql</li>
 </ul>
+(changer les droits pour l'utilisateur root)
+<ul>
+	<li>DROP USER 'root'@'localhost';</li>
+	<li>CREATE USER 'root'@'localhost' IDENTIFIED BY 'password';</li>
+	<li>GRANT ALL PRIVILEGES ON *.* TO 'root'@'localhost' WITH GRANT OPTION;</li>
+</ul>
 (installer mysql-connector pour python)
 <ul>
 	<li>pip install mysql-connector</li>
