@@ -37,12 +37,12 @@
 	<li>CREATE USER 'root'@'localhost' IDENTIFIED BY 'password';</li>
 	<li>GRANT ALL PRIVILEGES ON *.* TO 'root'@'localhost' WITH GRANT OPTION;</li>
 </ul>
-(installer mysql-connector pour python)
+(installer mysql-connector pour python !!! BIEN METTRE SUDO SINON LES MODULES S'INSTALLENT DANS /PI/LOCAL/LIB AU LIEU DE USR/LOCAL/LIB)
 <ul>
-	<li>pip install mysql-connector</li>
+	<li>sudo pip install mysql-connector</li>
 </ul>
 
-<h2>PHPMyAdmin auto:</h2>
+<h2>PHPMyAdmin:</h2>
 (installation de PhpMyAdmin)
 (mettre no à "dbconfig-common")
 <ul>
@@ -63,18 +63,6 @@
 	<li>$cfg['Servers'][$i]['AllowNoPassword'] = TRUE;</li>
 </ul>
 (et renommer le fichier en config.inc.php (enlever le sample.))
-	
-
-<h2>PHPMyAdmin manually:</h2>
-<ul>
-	<li>cd /tmp</li>
-	<li>wget https://files.phpmyadmin.net/phpMyAdmin/5.0.2/phpMyAdmin-5.0.2-all-languages.zip</li>
-	<li>sudo apt install unzip</li>
-	<li>unzip phpMyAdmin-5.0.2-all-languages.zip</li>
-	<li>mv phpMyAdmin-5.0.2-all-languages phpmyadmin</li>
-	<li>sudo mv phpmyadmin /var/www/html</li>
-	
-</ul>
 
 
 <h2>Internet:</h2>
