@@ -51,7 +51,7 @@
 	<li>sudo phpenmod mysqli</li>
 	<li>sudo /etc/init.d/apache2 restart</li>
 </ul>
-(tester localhost/phpmyadmin et si ca ne marche pas "sudo ln -s /usr/share/phpmyadmin /var/www/html/phpmyadmin")
+(tester localhost/phpmyadmin et si le site est innaccessible "sudo ln -s /usr/share/phpmyadmin /var/www/html/phpmyadmin")
 
 <h2>🧾 Remove PHP password error:</h2>
 <ul>
@@ -74,8 +74,8 @@
  
 <h2>🧾 Donner la permission sudo à www-data:</h2>
 <ul>
-	<li>chown www-data:www-data /var/www</li>
-	<li>chmod 775 /var/www</li>
+	<li>sudo chown www-data:www-data /var/www</li>
+	<li>sudo chmod 775 /var/www</li>
 </ul>
  
 <h2>🧾 Pour enlever la demande de mot de passe par le serveur web (PHP):</h2>
