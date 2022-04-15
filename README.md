@@ -5,7 +5,7 @@
 <h3>https://anto.online/code/how-to-run-php-script-root/ <span>(www-data no-pass)</span></h3>
 <h3>https://www.digitalocean.com/community/questions/how-to-install-manually-phpmyadmin-on-ubuntu <span>(phpmyadmin manually)</span></h3>
 
-
+‼‼ <h1>Bien mettre "sudo" devant les commandes sinon il se peux que les modules ne s'installent pas au bonne endroit.</h1> ‼‼
 
 <h2>🧾 Appache:</h2>
 (installation d'apache)
