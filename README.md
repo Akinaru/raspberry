@@ -30,6 +30,7 @@
 </ul>
 (changer les droits pour l'utilisateur root)
 <ul>
+	<li>sudo mysql --user=root</li>
 	<li>DROP USER 'root'@'localhost';</li>
 	<li>CREATE USER 'root'@'localhost' IDENTIFIED BY 'password';</li>
 	<li>GRANT ALL PRIVILEGES ON *.* TO 'root'@'localhost' WITH GRANT OPTION;</li>
