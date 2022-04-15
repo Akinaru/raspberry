@@ -1,6 +1,7 @@
 <h1 align="center">Tutoriel pour pour installer Apache/Php/Mysql/PHPMyAdmin sur la raspberry ainsi que la fixation d'ip et +.</h1>
 
 <h1>Tuto réalisé par Akinaru en mode chillax.</h1>
+<h1>Tuto réalisé par </h1><a href="https://github.com/Akinaru"><h1 align="center">**@Akinaru**</h1></a><h1> en mode chillax.</h1>
 
 <h1>‼‼ Bien mettre "sudo" devant les commandes sinon il se peux que les modules ne s'installent pas au bonne endroit. ‼‼</h1>
 
