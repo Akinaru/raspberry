@@ -51,6 +51,8 @@
 <ul>
 	<li>sudo phpenmod mysqli</li>
 	<li>sudo /etc/init.d/apache2 restart</li>
+	
+	(Si mysqli ne s'installe pas: "sudo apt-get install -y php-mysqli" et apres refaire la commande)
 </ul>
 (tester localhost/phpmyadmin et si le site est innaccessible "sudo ln -s /usr/share/phpmyadmin /var/www/html/phpmyadmin")
 
