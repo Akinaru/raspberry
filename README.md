@@ -1,11 +1,8 @@
 <h1 align="center">Tutoriel pour pour installer Apache/Php/Mysql/PHPMyAdmin sur la raspberry ainsi que la fixation d'ip et +.</h1>
 
-<h3>https://raspberry-pi.fr/installer-serveur-web-raspberry-lamp/ <span>(installation)</span></h3>
-<h3>https://forums.raspberrypi.com/viewtopic.php?t=9928 <span>(perm www-data)</span></h3>
-<h3>https://anto.online/code/how-to-run-php-script-root/ <span>(www-data no-pass)</span></h3>
-<h3>https://www.digitalocean.com/community/questions/how-to-install-manually-phpmyadmin-on-ubuntu <span>(phpmyadmin manually)</span></h3>
+<h1>Tuto réalisé par Akinaru en mode chillax.</h1>
 
-‼‼ <h1>Bien mettre "sudo" devant les commandes sinon il se peux que les modules ne s'installent pas au bonne endroit.</h1> ‼‼
+<h1>‼‼ Bien mettre "sudo" devant les commandes sinon il se peux que les modules ne s'installent pas au bonne endroit. ‼‼</h1>
 
 <h2>🧾 Appache:</h2>
 (installation d'apache)
@@ -86,3 +83,9 @@
 	<li>sudo visudo -f /etc/sudoers.d/myOverrides</li>
 </ul>
 (et ajouter "www-data ALL=(ALL) NOPASSWD: ALL")
+
+
+<h3>https://raspberry-pi.fr/installer-serveur-web-raspberry-lamp/ <span>(installation)</span></h3>
+<h3>https://forums.raspberrypi.com/viewtopic.php?t=9928 <span>(perm www-data)</span></h3>
+<h3>https://anto.online/code/how-to-run-php-script-root/ <span>(www-data no-pass)</span></h3>
+<h3>https://www.digitalocean.com/community/questions/how-to-install-manually-phpmyadmin-on-ubuntu <span>(phpmyadmin manually)</span></h3>
