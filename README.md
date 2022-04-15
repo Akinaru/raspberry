@@ -2,7 +2,7 @@
 
 <h1 align="center">Tuto réalisé par Akinaru en mode chillax.</h1>
 
-<h1>‼‼ Bien mettre "sudo" devant les commandes sinon il se peux que les modules ne s'installent pas au bonne endroit. ‼‼</h1>
+<h1 align="center">‼‼ Bien mettre "sudo" devant les commandes sinon il se peux que les modules ne s'installent pas au bonne endroit. ‼‼</h1>
 
 <h2>🧾 Appache:</h2>
 (installation d'apache)
