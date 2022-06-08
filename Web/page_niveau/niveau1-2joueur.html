@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>niveau 1 - 2 joueurs</title>
+    <link rel="stylesheet" href="styles_pages/style_niv1_1j.css">
+    <link rel="stylesheet" href="styles_pages/style_conpteur.css">
+
+</head>
+<body class="body">
+    <section>
+
+        <div class="compteur2" style="display: flex;">
+            <div class="afficheurp1" id="afficheur1" style="margin: 5px;">
+                <div class="a"></div>
+                <div class="b"></div>
+                <div class="c"></div>
+                <div class="d"></div>
+                <div class="e"></div>
+                <div class="f"></div>
+                <div class="g remove"></div>
+            </div>
+            <div class="afficheurp1" id="afficheur2" style="margin: 5px;">
+                <div class="a"></div>
+                <div class="b"></div>
+                <div class="c"></div>
+                <div class="d"></div>
+                <div class="e"></div>
+                <div class="f"></div>
+                <div class="g remove"></div>
+            </div>
+            <button class="bouton" onclick="bpappuye_gauche();" id="bp">ajouter un point</button>
+        </div> 
+
+        <div class="nom_jeux">
+            <img src="styles_pages/img/niveau1/Baskarcade-1.png" class="nom_jeux"> 
+        </div>
+        <div class="separation">
+            <p>ㅤ</p>
+        </div>
+
+        <div class="compteur3" style="display: flex;">
+            <div class="afficheurp1" id="afficheur3" style="margin: 5px;">
+                <div class="a"></div>
+                <div class="b"></div>
+                <div class="c"></div>
+                <div class="d"></div>
+                <div class="e"></div>
+                <div class="f"></div>
+                <div class="g remove"></div>
+            </div>
+            <div class="afficheurp1" id="afficheur4" style="margin: 5px;">
+                <div class="a"></div>
+                <div class="b"></div>
+                <div class="c"></div>
+                <div class="d"></div>
+                <div class="e"></div>
+                <div class="f"></div>
+                <div class="g remove"></div>
+            </div>
+            <button class="bouton" onclick="bpappuye_droit();" id="bp">ajouter un point</button>
+        </div>
+
+        <div class="bp_restart">
+            <button class="bp" onclick="reset2p();">
+                <img src="styles_pages/img/niveau1/reset button-1.png">
+            </button>
+        </div>
+
+
+    </section>
+    <script src="java/script.js"></script>
+</body>
+</html>

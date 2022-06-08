@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="utf-8">
+        <title>Addition</title>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <link rel="stylesheet" href="style.css">
+        <style>
+            .state{
+                color: blue;
+            }
+        </style>
+    </head>
+
+    <body onload="getstate();">
+        <h1>Requete Ajax -> Php avec suite Python</h1>
+        <hr />
+        <div class="led">
+            <form id="led-formulaire">
+                
+                <input type="radio" id="checkbox_4" name="checkbox" value="4" checked="true">
+                <label for="checkbox_4">Pin: 4</label>
+                <input type="radio" id="checkbox_17" name="checkbox" value="17">
+                <label for="checkbox_17">Pin: 17</label>
+                <input type="radio" id="checkbox_27" name="checkbox" value="27">
+                <label for="checkbox_27">Pin: 27</label>
+                <div>
+                    <input type="button" id="bouton-led" value="ON" style="padding:15px;" onclick="led('on');">
+                    <input type="button" id="bouton-led" value="OFF" style="padding:15px;" onclick="led('off');">
+                </div>
+
+            </form>
+            <br />
+            <p>Status de la led 1: <span id="led1" style="font-size: 25px;" class="state">Chargement...</span></p>
+            <p>Status de la led 2: <span id="led2" style="font-size: 25px;" class="state">Chargement...</span></p>
+            <p>Status de la led 3: <span id="led3" style="font-size: 25px;" class="state">Chargement...</span></p>
+        </div>
+        
+        <hr />
+        <h2>PARTIE CAPTEUR HC-SR04 </h2>
+        <input type="button" id="bouton" value="Capteur" style="padding:15px;" onclick="capteurjs();">
+        <p>Résultat: <span id="capteur" style="font-size: 25px;" class="state">En attente...</span></p>
+        
+        <script src="ajax.js"></script>
+        <script src="capteur.js"></script>
+        <script src="led.js"></script>
+        <script src="getstate.js"></script>
+        
+        
+    </body>
+</html>

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BaskArcade</title>
+    <link rel="stylesheet" href="css_menu_index/style.css">
+    <link rel="stylesheet" href="css_menu_index/toast.css">
+</head>
+<body class="body_menu">
+
+    <section>
+                                                            <!-- nom du jeux baniere principale -->
+        <div class="nom_jeux">
+            <img class="img_baskarcade" src="css_menu_index/img/Baskarcade-1.png" alt="">
+        </div>
+
+                                                            <!-- choix des niveaux au centre du menu  -->
+        <div class="choix_niveaux">
+                                                                <!-- niveau 1 -->
+            <div class="div_niveau1">
+                <input type="radio" id="toggle1" name="niveau" class="checkbox1">
+                <label class="check" for="toggle1">
+                    <img src="css_menu_index/img/niveau 1-1.png" alt="">
+                </label>
+                
+            </div>
+                                                                <!-- niveau 2 -->
+            <div class="div_niveau2">
+                <input type="radio" id="toggle2" name="niveau" class="checkbox2">
+                <label for="toggle2">
+                    <img src="css_menu_index/img/niveau 2-1.png" alt="">
+                </label>
+                
+            </div>
+                                                                <!-- niveau 3 -->
+            <div class="div_niveau3">
+                <input type="radio" id="toggle3" name="niveau" class="checkbox3">
+                <label for="toggle3">
+                    <img src="css_menu_index/img/niveau 3-1.png" alt="">
+                </label>
+                
+            </div>
+        
+        </div>
+
+                                                            <!-- choix des joueurs en bas du menu  -->
+        <div class="choix_des_joueurs">
+        
+                                                                <!-- choix un seul joueurs -->
+            <div class="un_joueur">
+                <input type="radio" id="toggle4" name="nb_joueur" class="checkbox4">
+                <label for="toggle4">
+                    <img class="img_j" src="css_menu_index/img/1 Joueur-1.png" alt="">
+                </label>
+            </div>
+
+                                                                <!-- bouton jouer aun milieux -->
+            <div class="div_bp_play">
+                <a id="red">
+                    <button class="bouton_play">
+                        <img class="img_bp_play" src="css_menu_index/img/play button-1.png" alt="" onclick="afficher()">
+                    </button>
+                </a>
+            </div>
+   
+                                                                <!-- choix deux joueurs -->
+            <div class="deux_joueur">
+                <input type="radio" id="toggle5" name="nb_joueur" class="checkbox5">
+                <label for="toggle5">
+                    <img class="img_j2" src="css_menu_index/img/2 Joueurs-1.png" alt="">
+                </label>
+            </div>
+    
+        </div>
+    </section>   
+<script src="js_menu/script.js"></script>
+<script src="js_menu/toast.js"></script>
+</body>
+</html>

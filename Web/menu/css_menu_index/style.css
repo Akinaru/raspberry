@@ -1,0 +1,268 @@
+.body_menu {
+    background-image: url("img/background_niveau_1.svg");
+}
+
+/* titre rpincipale baskacade */
+.nom_jeux {
+    background-color: rgb(247, 247, 247);
+    width: 100%;
+    height: 100%;
+    position: static;
+    border: 0px;
+    animation: blink 10s infinite;
+    background-color: transparent;
+}
+
+.img_baskarcade {
+    width: 1500px; ;
+    height: 200px;
+    position: relative;
+    left: 10%;
+}
+
+
+
+/* clignotement de titre principale */
+@keyframes blink {
+3%{opacity: 1;}
+5%{opacity: 1;}
+7%{opacity: 1;}
+10%{opacity: 0.2;}
+13%{opacity: 0.2;}
+15%{opacity: 1;}
+17%{opacity: 1;}
+20%{opacity: 1;}
+23%{opacity: 0.2;}
+25%{opacity: 1;}
+27%{opacity: 1;}
+30%{opacity: 1;}
+33%{opacity: 1;}
+35%{opacity: 1;}
+37%{opacity: 1;}
+40%{opacity: 1;}
+43%{opacity: 1;}
+45%{opacity: 1;}
+47%{opacity: 0.1;}
+50%{opacity: 1;}
+53%{opacity: 1;}
+55%{opacity: 1;}
+57%{opacity: 1;}
+60%{opacity: 1;}
+63%{opacity: 1;}
+65%{opacity: 1;}
+67%{opacity: 1;}
+70%{opacity: 1;}
+73%{opacity: 1;}
+75%{opacity: 0.2;}
+77%{opacity: 0.6;}
+80%{opacity: 1;}
+83%{opacity: 1;}
+85%{opacity: 0.2;}
+87%{opacity: 1;}
+90%{opacity: 1;}
+93%{opacity: 1;}
+95%{opacity: 1;}
+97%{opacity: 1;}
+100%{opacity: 1;}
+}
+
+/* choix entre les 3 niveaux */
+.choix_niveaux {
+    position: static;
+    width: 100%;
+    height: 400px;
+    top: 250px;
+    background-color: transparent;
+}
+
+.div_niveau1 {
+    width: 359px;
+    height: 84px;
+    position: absolute;
+    top: 400px;
+    left: 50px;
+    border: 0px;
+    border-radius: 40px; 
+    transition: 1.5s;
+}
+
+.div_niveau1:hover {
+    cursor: pointer;
+    opacity: 0.7;
+    transition: 1s;
+    box-shadow: 0 5px 50px 0 #3196d1 inset, 0 5px 50px 0 #3196d1 ;
+    border-radius: 40px;
+    cursor: pointer;
+  
+}
+
+.checkbox1 {
+display: none;
+
+}
+
+.div_niveau2 {
+    width: 359px;
+    height: 84px;
+    position: absolute;
+    top: 400px;
+    left: 760px;
+    transition: 1.5s;
+    border-radius: 40px; 
+
+}
+
+.div_niveau2:hover {
+    cursor: pointer;
+    opacity: 0.7;
+    transition: 1s;
+    box-shadow: 0 5px 50px 0 #3196d1 inset, 0 5px 50px 0 #3196d1 ;
+    border-radius: 40px; 
+    cursor: pointer;
+}
+
+.checkbox2 {
+    display: none;
+}
+
+
+.div_niveau3 {
+    width: 359px;
+    height: 84px;
+    position: absolute;
+    top: 400px;
+    right: 70px;
+    transition: 1.5s;
+    border-radius: 40px;
+}
+
+.div_niveau3:hover {
+    cursor: pointer;
+    opacity: 0.7;
+    transition: 1s;
+    box-shadow: 0 5px 50px 0 #3196d1 inset, 0 5px 50px 0 #3196d1 ;
+    border-radius: 40px;
+}
+
+.checkbox3 {
+    display: none;
+}
+
+/* choix entre les 2 joueurs */
+.choix_des_joueurs {
+    width: 100%;
+    height: 400px;
+    background-color:transparent;
+    position: static;
+    top: 150px;
+}
+
+/* bouton 1 joueur */
+.un_joueur {
+    background-color: transparent;
+    width: 350px;
+    height: 75px;
+    position: absolute;
+    top: 80%;
+    left: 20%;
+    transform: translateX(-50%) translateY(-50%);
+    opacity: 0.9;
+}
+
+.un_joueur:hover {
+    cursor: pointer;
+}
+
+.img_j {
+    width: 100%;
+    height: 100%;
+    border-radius: 40px;
+    transition: 1.5s;
+    
+}
+
+.img_j:hover {
+    cursor: pointer;
+    opacity: 0.7;
+    transition: 1s;
+    box-shadow: 0 5px 50px 0 #3196d1 inset, 0 5px 50px 0 #3196d1 ;
+    border-radius: 40px;
+
+}
+
+.checkbox4 {
+    display: none;
+}
+
+
+/* bouton jouer en bas au millieux */
+.div_bp_play {
+    background-color: transparent;
+    width: 100px;
+    height: 25px;
+    position: absolute;
+    top: 80%;
+    left: 48.5%;
+    transform: translateX(-50%) translateY(-50%);
+    opacity: 0.9;
+}
+
+.bouton_play {
+    width: 100%;
+    height: 100%;
+    background-color:transparent;
+    text-align: center; 
+    border: 0px;
+}
+
+.bouton_play:hover{
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+
+/* bouton 2 joueurs */
+.deux_joueur {
+    background-color: transparent;
+    width: 350px;
+    height: 75px;
+    position: absolute;
+    top: 80%;
+    left: 80%;
+    transform: translateX(-50%) translateY(-50%);
+    opacity: 0.9;
+}
+
+.img_j2 {
+    width: 100%;
+    height: 100%;
+    border-radius: 30px;
+    transition: 1.5s;
+}
+
+.img_j2:hover {
+    cursor: pointer;
+    opacity: 0.7;
+    transition: 1s;
+    box-shadow: 0 5px 50px 0 #3196d1 inset, 0 5px 50px 0 #3196d1 ;
+    border-radius: 40px;
+
+}
+
+.checkbox5 {
+    display: none;
+}
+
+
+
+/* animation des checkbox  */
+label img  {
+    transition-duration: 0.5s;
+    transform-origin: 50% 50%;
+
+}
+
+:checked + label img {
+    transform: scale(1.3);
+    z-index: -1;
+  }

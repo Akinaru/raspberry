@@ -1,0 +1,55 @@
+.body {
+    background-image: url("img/niveau3/background_niveau_3.svg");
+}
+
+.nom_jeux {
+    left: 10%; 
+    position: absolute;
+    border: 0px;
+    background-color: transparent;
+    width: 80%;
+    height: 44%;
+}
+
+.separation {
+    background-color: rgb(255, 255, 255);
+    height: 400px;
+    width: 5px;
+    position: absolute;
+    bottom: 0px;
+    left: 50%;
+    transition: 1.2s;
+    box-shadow: 0 5px 50px 0 #ff0000 inset, 0 8px 50px 0 #ff0000;
+}
+
+.separation_horizontal {
+    background-color: rgb(255, 255, 255);
+    height: 5px;
+    width: 600px;
+    position: absolute;
+    bottom: 70%;
+    left: 34%;
+    transition: 1.2s;
+    box-shadow: 0 5px 50px 0 #ff0000 inset, 0 8px 50px 0 #ff0000;
+}
+
+
+.bp_restart {
+    background-color: transparent;
+    border: 0px;
+    margin: 0px;
+    position: absolute;
+    top: 45%;
+    left: 45%;
+}
+
+.bp {
+    background-color: transparent;
+    border: 0px;
+}
+
+.bouton {
+    background-color: transparent;
+    color: white;
+    border: 0px;
+}
